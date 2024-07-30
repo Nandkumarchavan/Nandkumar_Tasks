@@ -1,5 +1,19 @@
-USE rev
+CREATE DATABASE school_management;
 
-DROP table students;
+use school_management;
 
-DROP DATABASE rev
+CREATE TABLE student(
+s_id INT PRIMARY KEY,
+s_name VARCHAR(50),
+s_age INT);
+
+
+SELECT * FROM student;
+
+INSERT INTO student VALUES (1,"pratik",22);
+INSERT INTO student VALUES (2,"rahul",33);
+
+
+DROP table student;
+
+DROP DATABASE school_management
